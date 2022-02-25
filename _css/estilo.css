@@ -1,0 +1,122 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*  ----------------    INICIO DO CABEÇALHO DA PAGINA  ----------------    */
+header{
+    background: #202020;
+    padding: 10px 0;
+}
+.cabecalho{
+    width: 940px;
+    height: 230px;
+    margin: 0 auto;
+    position: relative;
+}
+.cabecalho img{
+    height: 230px;
+}
+nav{
+    position: absolute;
+    top: 115px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: #c6c6c6;
+    font-size: 25px;
+}
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+/*  ----------------    FIM DO CABEÇALHO DA PAGINA  ----------------    */
+
+/*  ----------------    INICIO DO CONTEÚDO DA PAGINA PRINCIPAL  ----------------*/   
+
+.apresentacao{
+    width: 940px;
+    margin: 10px auto;
+    padding: 20px 0 20px 0;
+    text-align: justify;
+    line-height: 1.5;
+}
+.apresentacao p{
+    margin: 0 0 1.5em;
+}
+.titulo-apresentacao{
+    font-size: 2em;
+    margin: 0.5em 0 0.5em 0;
+    font-weight: bold;
+}
+.titulo-conteudo{
+    font-size: 1.5em;
+    margin: 0 0 0.5em 0;
+    font-weight: bold;
+    padding: 10px 0;
+    opacity: 0.7;
+    text-decoration: underline;
+}
+.mapa{
+    background: linear-gradient(#ffffff, #c6c6c6);
+    padding: 0 0 20px 0;
+}
+.mapa-conteudo{
+    width: 940px;
+    margin: 20px auto 0 auto;
+    padding: 0 0 20px 0;
+}
+.video{
+    background: linear-gradient(#c6c6c6, #383838);
+    padding: 0 0 20px 0;
+}
+.video-conteudo{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+}
+/*  ----------------    FIM DO CONTEÚDO DA PAGINA  ----------------*/    
+
+/*  ----------------    INCIO DA PAGINA DE SERVIÇOS  ----------------*/
+.servicos{
+    border-bottom: solid 1px #c0c0c0;
+    border-top: solid 1px #c0c0c0;
+    margin: 20px 0 20px 0;
+}
+.servicos-itens{
+    width: 940px;
+    margin: 15px auto 20px auto;
+    padding: 10px;
+}
+.servicos-itens li{
+    border: #000000 solid 2px;
+    display: inline-block;
+    margin: 5px;
+    width: 188px;
+    padding: 10px;
+    background: #a5a5a5;
+}
+.servicos-itens h2{
+    text-align: center;
+}
+.servicos-itens img{
+    width: 100%;
+    margin: 10px auto;
+}
+/*  ----------------    FIM DA PAGINA DE SERVIÇOS  ----------------*/
+
+/*  ----------------    INICIO DO RODAPÉ DA PAGINA  ----------------*/
+footer{
+    background: linear-gradient(#383838, #202020);
+    color: #ffffff;
+    height: 85px;
+    text-align: center;
+    line-height: 80px;
+}
+/*  ----------------    FIM DO RODAPÉ DA PAGINA  ----------------*/
