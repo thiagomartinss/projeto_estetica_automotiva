@@ -85,29 +85,14 @@ nav a{
 
 /*  ----------------    INCIO DA PAGINA DE SERVIÇOS  ----------------*/
 .servicos{
-    border-bottom: solid 1px #c0c0c0;
-    border-top: solid 1px #c0c0c0;
-    margin: 20px 0 20px 0;
-}
-.servicos-itens{
+    /*border-bottom: solid 1px #c0c0c0;
+    border-top: solid 1px #c0c0c0;*/
+    margin: 20px auto;
     width: 940px;
-    margin: 15px auto 20px auto;
-    padding: 10px;
 }
-.servicos-itens li{
-    border: #000000 solid 2px;
-    display: inline-block;
-    margin: 5px;
-    width: 188px;
-    padding: 10px;
-    background: #a5a5a5;
-}
-.servicos-itens h2{
-    text-align: center;
-}
-.servicos-itens img{
-    width: 100%;
-    margin: 10px auto;
+.servicos li{
+    border: #c0c0c0 solid 1px;
+    margin: 10px;
 }
 /*  ----------------    FIM DA PAGINA DE SERVIÇOS  ----------------*/
 
