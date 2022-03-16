@@ -88,12 +88,38 @@ nav a{
     /*border-bottom: solid 1px #c0c0c0;
     border-top: solid 1px #c0c0c0;*/
     margin: 20px auto;
-    width: 940px;
+    width: 1080px;
 }
-.servicos li{
+.titulo-apresentacao{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    border: yellow solid 1px;
+}
+.caixa{
     border: #c0c0c0 solid 1px;
     margin: 10px;
+    height: 350px;
+    position: relative;
 }
+.caixa img{
+    height: 200px;
+    border: red solid 1px;
+    position: absolute;
+    top: 50px;
+    margin: auto 10px;
+}
+.caixa p{
+    border: green solid 1px;
+    text-align: justify;
+    line-height: 1.5;
+    position: absolute;
+    left: 350px;
+    top: 40px;
+    margin-right: 10px;
+}
+
+
 /*  ----------------    FIM DA PAGINA DE SERVIÇOS  ----------------*/
 
 /*  ----------------    INICIO DO RODAPÉ DA PAGINA  ----------------*/
