@@ -90,35 +90,42 @@ nav a{
     margin: 20px auto;
     width: 1080px;
 }
-.titulo-apresentacao{
+.desc-servicos{
+    opacity: 0.6;
     font-size: 1.5em;
-    text-align: center;
     font-weight: bold;
-    border: yellow solid 1px;
+    text-align: center;
+    margin: 10px auto;
 }
-.caixa{
-    border: #c0c0c0 solid 1px;
-    margin: 10px;
-    height: 350px;
+.caixa-esquerda, .caixa-direita{
+    margin: 20px auto;
     position: relative;
+    height: 400px;
 }
-.caixa img{
-    height: 200px;
-    border: red solid 1px;
-    position: absolute;
-    top: 50px;
-    margin: auto 10px;
-}
-.caixa p{
-    border: green solid 1px;
-    text-align: justify;
+.caixa-esquerda p{
     line-height: 1.5;
+    width: 500px;
+    text-align: justify;
     position: absolute;
-    left: 350px;
-    top: 40px;
-    margin-right: 10px;
+    right: 50px;
+    top: 50px;
 }
-
+.caixa-direita p{
+    line-height: 1.5;
+    width: 500px;
+    text-align: justify;
+    margin: 30px 10px;
+}
+.caixa-direita img{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+ul img{
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+}
 
 /*  ----------------    FIM DA PAGINA DE SERVIÇOS  ----------------*/
 
