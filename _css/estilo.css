@@ -52,7 +52,7 @@ nav a{
 }
 .titulo-apresentacao{
     font-size: 2em;
-    margin: 0.5em 0 0.5em 0;
+    margin: 1.5em 0 1.5em 0;
     font-weight: bold;
 }
 .titulo-conteudo{
@@ -85,8 +85,6 @@ nav a{
 
 /*  ----------------    INCIO DA PAGINA DE SERVIÇOS  ----------------*/
 .servicos{
-    /*border-bottom: solid 1px #c0c0c0;
-    border-top: solid 1px #c0c0c0;*/
     margin: 20px auto;
     width: 1080px;
 }
@@ -126,8 +124,22 @@ ul img{
     height: 300px;
     padding: 10px;
 }
-
 /*  ----------------    FIM DA PAGINA DE SERVIÇOS  ----------------*/
+
+/*  ----------------    INICIO DA PAGINA SOBRE  ----------------*/
+.sobre{
+    margin: 20px auto;
+    width: 940px;
+    padding: 10px;
+}
+.titulo-servicos{
+    font-size: 1.5em;
+    line-height: 1.5;
+    opacity: 0.6;
+    text-decoration: underline;
+    margin: 15px 0;
+}
+/*  ----------------    FIM DA PAGINA SOBRE  ----------------*/
 
 /*  ----------------    INICIO DO RODAPÉ DA PAGINA  ----------------*/
 footer{
