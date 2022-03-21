@@ -20,28 +20,28 @@
             </div> 
         </header>
         <main>
-            <h3>Para entrar em contato conosco preencha os dados abaixo que te retornaremos o mais breve possível.</h3>
+            <h3 class="titulo-contato">Para entrar em contato conosco preencha os dados abaixo que te retornaremos o mais breve possível.</h3>
             <section class="formulario">
                 <form>
                     <label for="nome">Nome e Sobrenome</label>
-                    <input type="text" id="nome" placeholder="Insira seu nome e sobrenome">
+                    <input type="text" id="nome" class="input-padrao" placeholder="Insira seu nome e sobrenome">
                     
                     <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Insira seu email">
+                    <input type="email" id="email" class="input-padrao" placeholder="Insira seu email">
 
                     <label for="celular">Celular</label>
-                    <input type="tel" id="celular" placeholder="Insira seu número de celular">
+                    <input type="tel" id="celular" class="input-padrao" placeholder="Insira seu número de celular">
 
                     <label for="mensagem">Mensagem</label>
-                    <textarea id="mensagem" cols="70" rows="10"></textarea>
+                    <textarea id="mensagem" cols="70" rows="10" placeholder="Insira sua mensagem!"></textarea>
 
-                    <fieldset>
+                    <fieldset class="contato">
                         <legend>Como prefere que entramos em contato?</legend>
                         <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">Email</label>
                         <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
                         <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
                     </fieldset>
-                    <fieldset>
+                    <fieldset class="contato">
                         <legend>Qual horário prefere ser contatado?</legend>
                         <select>
                             <option>Manhã</option>
@@ -49,8 +49,8 @@
                             <option>Noite</option>
                         </select>
                     </fieldset>
-                    <label> <input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
-                    <input type="submit" value="Enviar Formulário">
+                    <label> <input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+                    <input type="submit" class="submit" value="Enviar Formulário">
                 </form>
             </section>
         </main>

@@ -162,18 +162,54 @@ p, li{
 /*  ----------------    FIM DA PAGINA SOBRE  ----------------*/
 
 /* ---------------  INICIO DA PAGINA CONTATO  -----------------*/
+.titulo-contato{
+    font-size: 1.5em;
+    margin: 20px auto 10px auto;
+    width: 1200px;
+    font-weight: bold;
+    opacity: 0.6;
+}
 .formulario{
     width: 940px;
     margin: 20px auto;
 }
 form{
     padding: 10px;
-    border: blue 1px solid;
 }
 form label, form legend{
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
+}
+.input-padrao{
+    border-radius: 5px;
+    height: 25px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+textarea{
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.contato{
+    margin: 20px 0 15px 0;
+}
+.checkbox{
+    margin: 15px 0;
+}
+.submit{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+}
+.submit:hover{
+    background-color: darkorange;
+    color: #000000;
+    transition-delay: 0.5s;
 }
 /* ---------------  FIM DA PAGINA CONTATO  -----------------*/
 
@@ -184,5 +220,9 @@ footer{
     height: 85px;
     text-align: center;
     line-height: 80px;
+}
+.copyright{
+    margin-top: 30px;
+    display: inline-block;
 }
 /*  ----------------    FIM DO RODAPÉ DA PAGINA  ----------------*/
